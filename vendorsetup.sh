@@ -2,7 +2,7 @@ echo "Cloning kernel..."
 git clone https://github.com/nnippon99/kernel_xiaomi_sm6375 kernel/xiaomi/sm6375
 git clone https://github.com/nnippon99/device_xiaomi_veux-kernel device/xiaomi/veux-kernel
 echo "Cloning Vendor..."
-git clone https://github.com/alexandrusemina/vendor_xiaomi_veux vendor/xiaomi/veux
+git clone https://gitlab.com/nnippon99/vendor_xiaomi_veux vendor/xiaomi/veux
 echo "Cloning hardware related stuff..."
 rm -rf hardware/xiaomi
 git clone https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
