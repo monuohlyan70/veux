@@ -17,10 +17,10 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
-# Inherit some common Derpfest stuff
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common Rising-OSS stuff
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := derp_veux
+PRODUCT_NAME := lineage_veux
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
@@ -32,3 +32,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="veux-user 13 TKQ1.221114.001 V14.0.2.0.TKCMIXM release-keys"
 
 BUILD_FINGERPRINT := POCO/veux_p_global/veux:13/TKQ1.221114.001/V14.0.2.0.TKCMIXM:user/release-keys
+
+# Rising maintainership
+RISING_CHIPSET := SM6375
+RISING_MAINTAINER := SeminaAlexandru(semialex16)
+WITH_GMS := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_USE_GOOGLE_TELEPHONY := true
+TARGET_CORE_GMS_EXTRA := true
+TARGET_ENABLE_BLUR := true
