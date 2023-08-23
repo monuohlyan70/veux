@@ -74,3 +74,8 @@ persist.vendor.sensors.enable.mag_filter=true
 
 # WiFi Display
 persist.debug.wfd.enable=1
+
+# Spark-OS
+ro.spark.group.url=https://t.me/alexveuxchat
+ro.spark.maintainer=Semina Alexandru(semialex16)
+ro.spark.maintainer.username=semialex16

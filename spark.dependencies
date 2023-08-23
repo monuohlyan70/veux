@@ -1,0 +1,8 @@
+[
+    {
+        "remote": "devices",
+        "repository": "android_vendor_xiaomi_veux",
+        "target_path": "vendor/xiaomi/veux",
+        "branch": "pyro"
+    }
+]
