@@ -337,8 +337,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
-    $(LOCAL_PATH)/overlay-spark
-    
+
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayVeux \
     DialerOverlayVeux \
@@ -353,7 +352,6 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlayS88106BA1 \
     SettingsProviderOverlayS88107BA1 \
     SystemUIOverlayVeux \
-    SettingsLibOverlayVeux \
     TelephonyOverlayVeux \
     TetheringResOverlayVeux \
     WifiOverlayVeux \
