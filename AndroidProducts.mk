@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2023 The SparkOS Project
+# Copyright (C) 2023 The Derpfest Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_veux.mk
+    $(LOCAL_DIR)/derp_veux.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_veux-user \
-    spark_veux-userdebug \
-    spark_veux-eng
+    derp_veux-user \
+    derp_veux-userdebug \
+    derp_veux-eng
