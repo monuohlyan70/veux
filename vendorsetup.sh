@@ -1,5 +1,5 @@
 echo "Cloning kernel..."
-git clone https://github.com/alexandrusemina/kernel_xiaomi_sm6375.git kernel/xiaomi/sm6375 --depth=1
+git clone https://github.com/aswinop/kernel_xiaomi_sm6375.git kernel/xiaomi/sm6375 --depth=1
 
 echo "Cloning Vendor..."
 git clone https://gitlab.com/alexandrusemina/vendor_xiaomi_veux vendor/xiaomi/veux
