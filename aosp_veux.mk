@@ -17,13 +17,12 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
-# Inherit some common Derpfest stuff
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+# Inherit some common AOSP stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := derp_veux
+PRODUCT_NAME := aosp_veux
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X4 Pro 5G
-
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
