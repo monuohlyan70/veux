@@ -753,7 +753,8 @@
     <!-- Package name of a telephony-related system app, such as an IMS service.
          Exempted from privacy indicators. -->
     <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
-
+    <!-- Whether device has turbo power charging support -->
+    <bool name="config_hasTurboPowerCharger">true</bool>
     <!-- Whether to show settings for hiding notch fill -->
     <bool name="config_showHideNotchSettings">true</bool>
 
