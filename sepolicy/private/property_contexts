@@ -8,6 +8,9 @@ ro.miui.build.region           u:object_r:exported_system_prop:s0
 # Hardware
 ro.hardware.chipname           u:object_r:exported_default_prop:s0
 
+# RIL
+ro.ril.oem.wifimac             u:object_r:vendor_radio_prop:s0
+
 # MIUI
 ro.cust.test                   u:object_r:exported_system_prop:s0
 ro.miui.                       u:object_r:exported_system_prop:s0
