@@ -205,6 +205,7 @@ vendor.display.enable_allow_idle_fallback=1
 vendor.display.enable_rc_support=1
 ro.vendor.display.sensortype=2
 ro.vendor.display.svi=1
+vendor.display.perf_hint_window=50
 vendor.display.comp_mask=0
 vendor.display.disable_excl_rect_partial_fb=1
 vendor.display.disable_excl_rect=0
